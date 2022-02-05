@@ -9,11 +9,12 @@
     </head>
 
     <body>
-        <!-- replaced div tag with semantic nav tag -->
-        <!-- navigation -->
-        <nav class="header">
+        <!-- replaced div tag with semantic header tag -->
+        <!-- header/navigation -->
+        <header class="header">
             <h1>Hori<span class="seo">seo</span>n</h1>
-            <div>
+            <!-- replaced div tag with semantic nav tag -->
+            <nav>
                 <ul>
                     <li>
                         <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -25,16 +26,17 @@
                         <a href="#social-media-marketing">Social Media Marketing</a>
                     </li>
                 </ul>
-            </div>
-        </nav>
-        <!-- replaced div tag with semantic header tag -->
-        <!-- header -->
+            </nav>
+        </header>
+        <!-- replaced div tag with semantic section tag -->
         <!-- added title tag as stand in for alt tag to backgroun-image -->
-        <header class="hero" title="four person meeting over some papers in a modern office"></header>
+        <!-- hero -->
+        <section class="hero" title="four person meeting over some papers in a modern office"></section>
         <!-- replaced div tag with semantic main tag -->
         <!-- main content -->
         <main class="content">
-            <div class="search-engine-optimization">
+            <!-- added proper id to ensure nav links work properly -->
+            <div  id="search-engine-optimization" class="search-engine-optimization">
                 <!-- added alt tag for image -->
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="a notebook on search engine optimization amid a cluttered desk"/>
                 <h2>Search Engine Optimization</h2>
@@ -51,6 +53,7 @@
                 </p>
             </div>
             <div id="social-media-marketing" class="social-media-marketing">
+                <!-- added alt tag for image -->
                 <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="social media marketing meeting at a table covered in common icons"/>
                 <h2>Social Media Marketing</h2>
                 <p>
